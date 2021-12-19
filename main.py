@@ -23,6 +23,6 @@ title = "Top News Headline of the Hour"
 
 while True:
     for news in news_list:
-        message = news.title.text
+        message = news.title.text + "Published on: " + news.pubDate.text
         notification.notify(title=title, message=message, timeout=20)
     time.sleep(3600)
