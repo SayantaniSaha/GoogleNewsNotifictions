@@ -1,7 +1,7 @@
 # NewsNotifier
 A Python project to send you top 10 News from Google as desktop notifications after every 1 hour. 
 
-## Installation & Dependencies
+## Python Modules
 
 Modules used in this code:
 * urllib
